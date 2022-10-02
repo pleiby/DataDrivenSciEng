@@ -1,5 +1,28 @@
-/.DS_Store
+.DS_Store
+*.rtf
+*.doc
+
+# original zip files
 /CODE_PYTHON.zip
 /DATA_PYTHON.zip
+# Matlab full code set
 /matlab
-/src
+
+# Data files (large, binary)
+/src/CODE_PYTHON/DATA/*
+# Matlab Utils
+/src/CODE_PYTHON/UTILS/*
+
+# Chapters not yet introduced to repository
+/src/CODE_PYTHON/CH02/*
+/src/CODE_PYTHON/CH03/*
+/src/CODE_PYTHON/CH04/*
+/src/CODE_PYTHON/CH05/*
+/src/CODE_PYTHON/CH06/*
+/src/CODE_PYTHON/CH07/*
+/src/CODE_PYTHON/CH08/*
+/src/CODE_PYTHON/CH09/*
+/src/CODE_PYTHON/CH1*
+
+# annoying checkpoint files
+*checkpoint.ipynb
